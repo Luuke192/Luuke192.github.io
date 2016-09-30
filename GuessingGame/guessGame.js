@@ -3,7 +3,7 @@ $(function () {
         checkGuess();
     })
     $('#gameInstructions').click(function () {
-        alert("Green means you chose the correct number, Yellow means the number is in one of the boxes, Red means the number is nowhere to be found.");
+        alert("Pick numbers between 0-9, Green means you chose the correct number, Yellow means the number is in one of the boxes, Red means the number is nowhere to be found.");
     })
     $('#resetGame').click(function () {
         location.reload();
