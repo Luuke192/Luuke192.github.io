@@ -1,0 +1,64 @@
+body {
+  width: 85%;
+  height: 85%;
+  margin: auto;
+  font-family: 'Baloo Bhai', cursive;
+}
+#playarea {
+	margin-top:20px;
+	background-color: #Ff2a54;
+	padding: 0px;
+}
+.button-center {
+  text-align: center;
+}
+#reset {
+	margin: auto auto;
+}
+.blank {
+	background: transparent;
+}
+.modal-dialog{
+	padding-top: 150px;
+}
+
+.img-responsive .carousel {
+	height:400px;
+}
+
+.postbox {
+	background-color: #DDDDDD;
+	border-radius: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+html{
+	background: #ffffff;
+}
+.btn {
+    background-color: #Ff2a54
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #Ff2a54;
+  border-color: #222222;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ffffff;
+  background-color: #Ff2a54;
+  border-color: #222222;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+}
