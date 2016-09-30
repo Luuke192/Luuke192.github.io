@@ -1,0 +1,68 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Lalezar', cursive;
+    background-color: #ff2a54;
+    color: white;
+}
+.container {
+    text-align: center;
+}
+.checkNumbers {
+    text-align: center;
+}
+.gameInstructions {
+    text-align: center;
+}
+.resetGame {
+    text-align: center;
+}
+#box1 {
+    text-align: center;
+    float: left;
+    width: 31%;
+    font-size: 19em;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+}
+#box2 {
+    text-align: center;
+    float: right;
+    width: 31%;
+    font-size: 19em;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+}
+#box3 {
+    text-align: center;
+    width: 31%;
+    font-size: 19em;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+}
+#amountOfTries {
+    text-align: center;
+}
+.btn {
+    border-color: black;
+    background-color: #ff2a54;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn:hover {
+    background-color: black;
+    border-color: black;
+}
+.btn:focus {
+    background-color: black;
+    border-color: black;
+}
+.btn:active {
+    background-color: black;
+    border-color: black;
+}
+#shareThis {
+    text-align: center;
+}
