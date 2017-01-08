@@ -1,0 +1,52 @@
+body {
+	text-align:center;
+  background-image: url("img/textured.jpg");	
+  background-size: 100%;
+}
+
+canvas {
+border: 1px solid black;
+position: relative;
+text-align: center;
+background-color: lightgray;
+}
+
+@-webkit-keyframes canvasAnimation {
+  0% {-webkit-transform:rotate(90deg);left: 0px; top: 0px }
+}
+
+.board {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  float: left;
+  margin-left: 29%;
+}
+
+#title {
+  float: middle;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#winner {
+  float: top;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#xscore {
+  float: left;
+  margin-left: 20%;
+}
+
+#reset {
+  float: top;
+}
+
+#oscore {
+  float: right;
+  margin-right: 10%;
+}
