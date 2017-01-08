@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tip Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
+    <!-- Official Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="tipCalcStyle.css">
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "8a4a39a2-73d0-468d-abfc-67f2e09d8d76", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+</head>
+
+<body>
+    <br>
+    <!--mainCard-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!--Head of card-->
+                <br>
+                <h2>Tip Calculator</h2>
+                <hr>
+                <!--Start of bottom card after HR-->
+                <div class="bottomInfo">
+                    <h4>How much was your bill?</h4>
+                    <label for="billAmount">$</label>
+                    <input name="billAmount" id="billAmount" min="0" maxlength="6" type="text" />
+                    <br>
+                    <br>
+                    <h4>How was your service?</h4>
+                    <label>
+                        <select id="serviceQuality">
+                            <option disabled selected value=null>-- Choose an Option --</option>
+                            <option value="0.3">30% - Outstanding</option>
+                            <option value="0.2">20% - Good</option>
+                            <option value="0.15">15% - It was okay</option>
+                            <option value="0.2">10% - Bad</option>
+                            <option value="0.05">5% - Terrible</option>
+                        </select>
+                    </label>
+                    <br>
+                    <h4>How many people are sharing the bill?</h4>
+                    <input name="billPeople" id="billPeople" min="1" maxlength="2" type="number" />
+                    <label for="billPeople">  people</label>
+                    <hr>
+                    <div class="calculate">
+                        <button id="calculate" class="btn btn-primary" type="submit">CALCULATE</button>
+                    </div>
+                    <br>
+                    <div class="calculate">
+                        <button id="clearFields" class="btn btn-primary" type="reset">CLEAR FIELDS</button>
+                    </div>
+                    <div id="totalTipText">
+                        <h4>Tip Amount:</h4>
+                    </div>
+                    <div id="totalTip">
+                    </div>
+                    <div id="each">
+                        <h5>each</h5>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="shareThis">
+        <span class='st_facebook_large' displayText='Facebook'></span>
+        <span class='st_twitter_large' displayText='Tweet'></span>
+        <span class='st_linkedin_large' displayText='LinkedIn'></span>
+        <span class='st_pinterest_large' displayText='Pinterest'></span>
+        <span class='st_email_large' displayText='Email'></span>
+    </div>
+    <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Official Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Our project JS -->
+    <script src="tipCalcJS.js"></script>
+
+</body>
+
+</html>
