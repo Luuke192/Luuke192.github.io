@@ -1,0 +1,82 @@
+body {
+    color: white;
+    font-family: 'Lalezar', cursive;
+    background: url(http://studio2liverpool.com/wp-content/uploads/2014/05/03-Background-15blur.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+input {
+    border-radius: 5px;
+    font-size: 14px;
+}
+select {
+    background-color: #222222;
+    border-color: #222222;
+}
+.container {
+    background-color: #Ff2a54;
+    width: 28%;
+    text-align: center;
+    border-radius: 10px; 
+}
+.bottomInfo {
+    text-align: left;
+}
+input {
+    color: black;
+}
+li {
+    color: black;
+}
+.btn {
+    background-color: #Ff2a54;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+}
+.btn-primary:hover {
+  color: #ffffff;
+  background-color: #Ff2a54;
+  border-color: #222222;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #222222;
+  border-color: #222222;
+}
+.calculate {
+    text-align: center;
+}
+#calculate {
+    text-align: center;
+}
+#totalTipText {
+    text-align: center;
+}
+#totalTip {
+    text-align: center;
+}
+#totalBillText {
+    text-align: center;
+}
+#totalBill {
+    text-align: center;
+}
+#each {
+    text-align: center;
+}
+#shareThis {
+    text-align: center;
+}
