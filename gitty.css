@@ -1,5 +1,5 @@
 body {
-  background-color: teal;
+  background-color: black;
   background-image: url(octocat.jpg);
   background-size: 100%;
   background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: black; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
