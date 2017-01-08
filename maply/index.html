@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MapApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="maply.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="superhero.css">
+    <link rel="stylesheet" href="maply.css">
+    <!--The script tags for the Facebook button-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand glyphicon glyphicon-globe" href="#" style="padding: 5px"> MapApp</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="http://campbellaaron.github.io/index.html">Home</a></li>
+                <li><a href="http://campbellaaron.github.io/tumanyguesses/index.html">Guessing Game</a></li>
+                <li><a href="http://campbellaaron.github.io/tictactoe/index.html">Tic-Tac-Toe</a></li>
+                <li><a href="http://campbellaaron.github.io/tipcalculator/index.html">Tip Calculator</a></li>
+                <li><a href="http://campbellaaron.github.io/weatherly/index.html">Weather.ly</a></li>
+                <li class="active"><a href="#">MapApp</a></li>
+            </ul>
+            <form style="padding: 7px">
+                <label style="padding-right: 10px padding-top: 4px padding-left: 10px">Enter a location:   <input type="text" placeholder="City, State or ZIP" id="zip"></label>
+                <button type="button" class="btn btn-default btn-sm glyphicon glyphicon-map-marker" id="submit"></button>
+            </form>
+        </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row" id="map">
+            <div id="templateDiv" style="display: none">
+                <div class="col-md-3 col-md absocenter card">
+                    <button type="button" class="btn btn-default btn-sm glyphicon glyphicon-remove-circle" onclick="$(this).parent().fadeOut();"
+                        id="remove"></button>
+                    <h4>@@CITY@@</h4>
+                    <div class="cardsbg" id="maply">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbOrsfrnfI4JM051khEvMRhzvMZayLo-8&callback=myMap">
+    </script>
+</body>
+
+</html>
