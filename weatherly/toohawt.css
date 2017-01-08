@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    font-family: Nunito, Arial, Times, Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    text-shadow: 2px 2px #000;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.card span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #AAAAAA;
+}
+
+.glyphicon-fire {
+    font-size: 16pt;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+.glyphicon-remove {
+    color: white;
+    padding: 2px;
+    size: 36px;
+}
+
+nav {
+    font-family: Ubuntu;
+}
+
+.card-img {
+    overflow: hidden;
+}
+.card-img span {
+    margin: 15px;
+}
+.card-img * {
+    position: relative;
+}
+
+.card-bg {
+    background-position: center top;
+    background-color: black;
+    background-size: cover;
+    height: 450px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card {
+    margin: 25px;
+
+}
+
+.col-md {
+    margin: 20px;
+}
+
+.remove {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    size: 28px;
+}
+
+.absocenter {
+    text-align: center;
+}
